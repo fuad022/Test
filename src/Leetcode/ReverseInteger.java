@@ -10,6 +10,7 @@ public class ReverseInteger {
             x = x / 10;
         }
         if (temp > Integer.MAX_VALUE || temp < Integer.MIN_VALUE) return 0;
+
         return (int) temp;
     }
 
