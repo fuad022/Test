@@ -6,7 +6,7 @@ public class Test8 {
 
         int small = nums[0];
         int large = nums[0];
-        //test
+        //test2
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] > large) {
                 large = nums[i];
