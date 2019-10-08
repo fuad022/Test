@@ -15,6 +15,6 @@ public class Test10 {
         int n1 = (int)(byte)(char) -1;
         int n2 = (int)(char)(byte) -1;
         System.out.println(n2);
-        //test10 2
+        //test10 2 repeat
     }
 }
