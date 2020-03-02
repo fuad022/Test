@@ -1,8 +1,8 @@
-package Projects;
+package Algorithms;
 
 import java.util.*;
 
-public class Test2 {
+public class MissingNumberTeat {
 
     public static void main(String[] args) {
 
@@ -37,7 +37,8 @@ public class Test2 {
         }
 
         System.out.printf("Missing numbers in integer array %s, with total number %d is %n",
-                Arrays.toString(numbers), count);
+                          Arrays.toString(numbers), count);
+
         int lastMissingIndex = 0;
 
         for (int i = 0; i < missingCount; i++) {
